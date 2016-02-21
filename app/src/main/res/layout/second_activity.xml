@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="任务已经完成" />
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="w任务失败" />
+</LinearLayout>
